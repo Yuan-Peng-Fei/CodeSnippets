@@ -1,0 +1,3 @@
+Xcode每个代码块都是一个 .codesnippet 类型的文件，存放路径：
+
+/Users/ypf/Library/Developer/Xcode/UserData/CodeSnippets
