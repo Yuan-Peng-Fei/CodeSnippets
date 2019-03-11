@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// 遍历数组（适合不需要完全遍历的情况，如查找某个值）
+	<string>// 快速枚举法遍历数组（适合不需要完全遍历的情况，如查找某个值）
 [dataArray enumerateObjectsUsingBlock:^(GPProduct *p, NSUInteger idx, BOOL * _Nonnull stop) {
     if ([p.productId isEqualToString:weakSelf.productId]) {
         self.product.isFav = YES;
