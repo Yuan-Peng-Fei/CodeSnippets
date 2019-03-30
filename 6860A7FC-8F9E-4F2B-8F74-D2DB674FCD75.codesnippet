@@ -9,12 +9,12 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/* &lt;#标题#&gt;
+	<string>/** &lt;#标题#&gt;
  &lt;#参数1#&gt;：&lt;#注释1#&gt;
  &lt;#参数2#&gt;：&lt;#注释2#&gt;
  &lt;#参数3#&gt;：&lt;#注释3#&gt;
  &lt;#参数4#&gt;：&lt;#注释4#&gt;
-     */</string>
+ */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6860A7FC-8F9E-4F2B-8F74-D2DB674FCD75</string>
 	<key>IDECodeSnippetLanguage</key>
