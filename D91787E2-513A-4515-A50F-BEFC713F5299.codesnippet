@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>x-property_strong</string>
+	<string>x-weakSelf2</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#UIButton#&gt; *&lt;#testBtn#&gt;;</string>
+	<string>__weak typeof(self) weakSelf2 = strongSelf;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>113813A5-ED0E-4028-BA04-19FA89F2DA4E</string>
+	<string>D91787E2-513A-4515-A50F-BEFC713F5299</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>类属性：strong</string>
+	<string>解决2层嵌套block的循环引用，多层嵌套block以此类推</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>x-property_strong</string>
+	<string>x-weakSelf2</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

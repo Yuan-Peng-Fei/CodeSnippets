@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>x-property_strong</string>
+	<string>x-NS_UNAVAILABLE</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#UIButton#&gt; *&lt;#testBtn#&gt;;</string>
+	<string>- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
+- (id)copy NS_UNAVAILABLE;          // 没有遵循协议可以不写
+- (id)mutableCopy NS_UNAVAILABLE;   // 没有遵循协议可以不写</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>113813A5-ED0E-4028-BA04-19FA89F2DA4E</string>
+	<string>8858CFF8-593F-4DCE-8C8F-D6F98D94A4F4</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>类属性：strong</string>
+	<string>声明方法不可用</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>x-property_strong</string>
+	<string>x-NS_UNAVAILABLE</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

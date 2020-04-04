@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>x-property_strong</string>
+	<string>x-block</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#UIButton#&gt; *&lt;#testBtn#&gt;;</string>
+	<string>@property (nonatomic, copy) &lt;#void#&gt;(^&lt;#cancelBlock#&gt;)(&lt;#void#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>113813A5-ED0E-4028-BA04-19FA89F2DA4E</string>
+	<string>70BB2DF5-6F09-4C6B-908E-EF6FDC8935E3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>类属性：strong</string>
+	<string>定义block属性</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>x-property_strong</string>
+	<string>x-block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

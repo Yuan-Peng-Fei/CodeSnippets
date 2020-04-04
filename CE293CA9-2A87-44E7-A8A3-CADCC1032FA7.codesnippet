@@ -3,21 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>x-property_strong</string>
+	<string>x-cancelAutoAdjust</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#UIButton#&gt; *&lt;#testBtn#&gt;;</string>
+	<string>// 取消sv自动偏移
+if (@available(iOS 11.0, *)) {
+    &lt;#_infoTB#&gt;.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+} else {
+    self.automaticallyAdjustsScrollViewInsets = NO;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>113813A5-ED0E-4028-BA04-19FA89F2DA4E</string>
+	<string>CE293CA9-2A87-44E7-A8A3-CADCC1032FA7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>类属性：strong</string>
+	<string>取消scrollView自动偏移</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>x-property_strong</string>
+	<string>x-cancelAutoAdjust</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
