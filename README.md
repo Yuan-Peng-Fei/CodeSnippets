@@ -1,9 +1,8 @@
-# CodeSnippets
-Xcode代码块
+# CodeSnippets - Xcode代码块
 
-### Xcode代码块是什么？
+### 究竟是什么？
 
-Xcode代码块实质上是后缀为`.codesnippet`类型的文件，内容类似于plist，存放了代码块的各种信息，例如：
+CodeSnippets实质上是后缀为`.codesnippet`类型的文件，内容类似于plist，存放了代码块的各种信息，例如：
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -42,8 +41,9 @@ Xcode代码块实质上是后缀为`.codesnippet`类型的文件，内容类似�
 
 ```
 
-### Xocde代码块文件的存放路径
+### 保存在哪里？
 
+CodeSnippets保存在下面路径中，一旦卸载重装Xcode，这里的文件就会丢失，所以记得做好备份~
 
 ```
 /Users/ypf/Library/Developer/Xcode/UserData/CodeSnippets
