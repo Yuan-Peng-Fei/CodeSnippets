@@ -3,20 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>x-share</string>
+	<string>x-singleton.m</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>ClassImplementation</string>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// 创建单例
-+ (instancetype)sharedManager {
-    static dispatch_once_t onceToken;
-    static &lt;#GPAMapManager#&gt; *instance;
-    dispatch_once(&amp;onceToken, ^{
-        instance = [[&lt;#GPAMapManager#&gt; alloc] init];
+	<string>#pragma mark - Singleton
+
+/// Returns the default singleton instance.
++ (instancetype)shared {
+    static &lt;#MKPhotoManager#&gt; *_singleton = nil;
+    static dispatch_once_t oncePredicate;
+    dispatch_once(&amp;oncePredicate, ^{
+        _singleton = [[self alloc] init];
     });
-    return instance;
+    
+    return _singleton;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BB23E344-1DFE-4B85-B999-144342201520</string>
@@ -25,7 +29,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>快速创建类方法：单例</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>x-share</string>
+	<string>x-singleton.m</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>x-weakSelf</string>
+	<string>x-ignoreWarning-unused</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak typeof(self) weakSelf = self;</string>
+	<string>#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunused-variable"
+
+&lt;#Contents#&gt;
+
+#pragma clang diagnostic pop</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A9B11AB4-BF04-4015-BAC9-AF0D89DAE0A4</string>
+	<string>243CA8BE-6179-495A-8518-7C18F3C9B37B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>弱持有</string>
+	<string>ignore variable unused warning</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>x-weakSelf</string>
+	<string>x-ignoreWarning-unused</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

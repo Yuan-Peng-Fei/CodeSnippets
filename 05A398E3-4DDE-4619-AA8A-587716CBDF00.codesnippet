@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>x-mark</string>
+	<string>x-markGroup</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#UITableViewDelegate#&gt;
+	<string>#pragma mark - &lt;#group title#&gt;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>05A398E3-4DDE-4619-AA8A-587716CBDF00</string>
@@ -18,7 +18,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>分组标记</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>x-mark</string>
+	<string>x-markGroup</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

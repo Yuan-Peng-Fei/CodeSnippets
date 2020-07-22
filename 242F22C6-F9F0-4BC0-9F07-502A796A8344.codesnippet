@@ -3,21 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>x-weakSelf</string>
+	<string>x-singleton.h</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>ClassInterfaceMethods</string>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak typeof(self) weakSelf = self;</string>
+	<string>
+#pragma mark - Singleton
+
+/// Returns the default singleton instance.
++ (instancetype)shared;
+
+// 禁止外部调用
++ (instancetype)new NS_UNAVAILABLE;
+- (instancetype)init NS_UNAVAILABLE;
+- (id)copy NS_UNAVAILABLE;          // 没有遵循协议可以不写
+- (id)mutableCopy NS_UNAVAILABLE;   // 没有遵循协议可以不写
+
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A9B11AB4-BF04-4015-BAC9-AF0D89DAE0A4</string>
+	<string>242F22C6-F9F0-4BC0-9F07-502A796A8344</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>弱持有</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>x-weakSelf</string>
+	<string>x-singleton.h</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

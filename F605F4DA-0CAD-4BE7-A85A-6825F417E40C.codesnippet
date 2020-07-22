@@ -9,8 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (@available(iOS 11,*)) {
-    &lt;#NSLog(@"iOS 11");#&gt;
+	<string>if (@available(iOS &lt;#13.0#&gt;,*)) {
+    &lt;#NSLog(@"iOS 13.0环境");#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F605F4DA-0CAD-4BE7-A85A-6825F417E40C</string>

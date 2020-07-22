@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>x-weakSelf</string>
+	<string>x-markFixMe</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak typeof(self) weakSelf = self;</string>
+	<string>// FIXME: &lt;#bug description#&gt;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A9B11AB4-BF04-4015-BAC9-AF0D89DAE0A4</string>
+	<string>2C4AADF6-2413-4EBD-89E7-C846F9FDB55A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>弱持有</string>
+	<string>Mark a bug.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>x-weakSelf</string>
+	<string>x-markFixMe</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

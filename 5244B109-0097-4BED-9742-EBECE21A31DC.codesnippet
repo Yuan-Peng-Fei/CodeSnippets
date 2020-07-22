@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>x-weakSelf</string>
+	<string>x-completionHandler</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak typeof(self) weakSelf = self;</string>
+	<string>completionHandler:(void (^)(&lt;#NSData#&gt; * _Nullable &lt;#data#&gt;, &lt;#NSURLResponse#&gt; * _Nullable &lt;#response#&gt;, &lt;#NSError * _Nullable error#&gt;))completionHandler</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A9B11AB4-BF04-4015-BAC9-AF0D89DAE0A4</string>
+	<string>5244B109-0097-4BED-9742-EBECE21A31DC</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>弱持有</string>
+	<string>完成回调作为参数</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>x-weakSelf</string>
+	<string>x-completionHandler</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
