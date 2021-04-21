@@ -6,11 +6,10 @@
 	<string>x-strongSelf2</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__strong typeof(self) strongSelf2 = weakSelf2;</string>
+	<string>__strong __typeof(self) strongSelf2 = weakSelf2;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BC6FFC8F-3136-4F74-8AF5-E4AE0DD4F002</string>
 	<key>IDECodeSnippetLanguage</key>
